@@ -1,0 +1,109 @@
+/*GOOGLE FONTS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+/*RESETTING BASIC STYLE*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*GLOBAL VARIABLES*/
+:root {
+  /*Primary colors*/
+  --yellow: hsl(47, 88%, 63%);
+  /*Neutral Colors*/
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  ---black: hsl(0, 0%, 7%);
+  /*Font*/
+  --f-fam: "Figtree", serif;
+  --fw-semibold: 600;
+  --fw-bold: 800;
+}
+
+/*BASE STYLE*/
+body {
+  background-color: var(--yellow);
+  font-family: var(--f-fam);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+
+/*CARD*/
+.blog-card {
+  background-color: var(--white);
+  width: 350px;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid var(---black);
+  box-shadow: 10px 10px black;
+  margin: 20px;
+}
+/*IMAGE*/
+
+.card-img {
+  width: 100%;
+}
+.img-header {
+  width: 100%;
+  border-radius: 15px;
+}
+/*CONTENT*/
+.card-subject {
+  width: 90px;
+  background-color: var(--yellow);
+  padding: 8px;
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: center;
+  font-weight: var(--fw-bold);
+}
+.card-date {
+  font-size: 13px;
+  font-weight: var(--fw-semibold);
+}
+.card-title {
+  font-size: 20px;
+  font-weight: var(--fw-bold);
+  margin: 20px 0;
+}
+.card-title:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+.card-summary {
+  margin: 20px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--grey);
+}
+/*PROFILE*/
+.card-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.img-avatar {
+  width: 35px;
+  object-fit: cover;
+}
+.profile-name {
+  padding: 0 0 0 15px;
+  font-weight: var(--fw-bold);
+}
+
+/*ATTRIBUTION*/
+.attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
