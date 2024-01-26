@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blogpreview-card-html-css-uyuxqsH6JY)
+- Live Site URL: [Github Live](https://dgarance.github.io/blog-preview-card/)
 
 ## My process
 
